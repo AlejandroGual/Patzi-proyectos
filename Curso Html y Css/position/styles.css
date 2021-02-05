@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+section{
+width: 30%;
+margin: 0 auto;
+}/*Esto me hace centrar todo lo que ahi en section*/
+figure{
+    background-color: #CCF1FF;
+    text-align: center;
+    width: 80%;
+    
+}/*esto me da el color de fondo en la imagen y en el texto*/
+h2{
+    background-color:#FFB6C1 ;
+    text-align: center;
+    padding: 4px;
+    width: 50%;
+    border-radius:3px;
+    top:10px;
+    position: relative;
+    margin: 10% 40% 0 16% ;
+   
+}/* esto me da el color de fondo cuanto se mueve del margen el tope la union con position el texto alineado y el bode*/
+p{
+    text-align: center;
+    font-size: 105%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}

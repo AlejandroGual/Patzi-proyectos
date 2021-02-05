@@ -1,0 +1,24 @@
+.main-nav{
+margin-top: 50px;/* sirve para el tope del margen superior */
+list-style: none;/* sirve para eliminar los puntos de una lista */
+padding-left: 0px;/* sirve para poner el espacio de el contenedor */
+background-color: #13a4a4;
+}
+.main-nav__item{
+    display: inline-block;/* sirve para poner horizontal los textos*/
+}
+.main-nav__item a{
+ color: white;
+ padding: 5px;
+ border-radius: 2px;
+ text-decoration: none;
+}
+.main-nav__item a:hover{/* hover es un efecto que damos al pasar el maus por encima*/
+    color: blue;
+}
+.main-nav__item a:active{/*sirve para saber qeu esta activo el clic*/ 
+color: red;
+}
+.main-nav__item a::after{/* un pseudo elemento se llama con 4 puntos */
+    content: " | ";
+}

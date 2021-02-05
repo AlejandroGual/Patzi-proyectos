@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 5vh;
+    background-color:purple;
+    
+}
+.header-list{
+    text-align: center;
+    margin: 10px;
+}
+.header-list a{
+    list-style: none;
+    box-sizing: content-box;
+    background-color:  #13a4a4;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.header-list li{
+    display: inline-block;
+    align-content: center;
+
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+

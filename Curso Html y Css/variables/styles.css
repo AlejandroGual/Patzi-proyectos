@@ -1,0 +1,34 @@
+:root{
+   --color1:  #003476;
+   --color2: #b4d2f7;
+   --font-size:4rem;
+   --font:1.8rem;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+ font-size: 62.5%;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--color1);
+}
+main{
+    width: 100vw;
+    height: 71vh;
+    font-size: var(--font) ;
+}
+h1{
+    font-size: var(--font-size);
+    color: var(--color1);
+
+}
+footer{
+width: 100vw;
+height: 15vh;
+background-color:var(--color2);
+}

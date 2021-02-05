@@ -1,0 +1,5 @@
+@media (min-width:600px){/*me dice desde los 600px aplica este codigo*/
+    .c2,.c3,.c4{
+        width: 50%;
+    }
+    }
